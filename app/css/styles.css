@@ -1,0 +1,5 @@
+.testing {
+  width: 71.42857%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }

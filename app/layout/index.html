@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Anton</title>
+
+  <!--build:css css/styles.min.css-->
+  <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+  <link href="css/lib/bootstrap.min.css" rel="stylesheet">
+  <link href="css/lib/freelancer.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/print.css">
+  <!--endbuild-->
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="page-top" class="index">
+@@include('./partials/b.navigation.html')
+@@include('./partials/c.header.html')
+@@include('./partials/d.portfolio_menu.html')
+@@include('./partials/e.about.html')
+@@include('./partials/f.contact.html')
+@@include('./partials/g.footer.html')
+@@include('./partials/h.scroll_to_top.html')
+@@include('./partials/i.portfolio_modals.html')
+
+
+
+
+  <!-- JQUERY CDN -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <!-- JQUERY Fallback -->
+  <script>
+      window.jQuery || document.write('<script src="js/lib/jquery.js"><\/script>');
+  </script>
+
+  <!-- BOOTSTRAP JS CDN -->
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <!-- BOOTSTRAP JS Fallback -->
+  <script>
+      if(typeof($.fn.modal) === 'undefined') {document.write('<script src="js/lib/bootstrap.min.js"><\/script>')}
+  </script>
+
+
+  <!--build:js js/main.min.js -->
+  <!-- Plugin JavaScript -->
+  <script src="js/lib/jquery.easing.min.js"></script>
+  <script src="js/lib/classie.js"></script>
+  <script src="js/lib/cbpAnimatedHeader.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src="js/lib/freelancer.js"></script>
+  <!-- Parame -->
+  <script src="js/parasaemail.js"></script>
+  <script src="js/another-library.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- endbuild -->
+</body>
+
+</html>
