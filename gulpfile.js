@@ -65,7 +65,7 @@ gulp.task('fileinclude', function() {
 
 // Watchers
 gulp.task('watch', function() {
-  gulp.watch('app/scss/**/*.scss', ['sass', 'autoprefixer']);
+  gulp.watch('app/scss/**/*.scss', ['sass']);
   gulp.watch('app/js/**/*.js', browserSync.reload);
   gulp.watch('app/layout/**/*.html', ['fileinclude']);
   // gulp.watch('app/*.html', browserSync.reload);
